@@ -1,0 +1,6 @@
+var BuyerCollection = Backbone.QueryCollection.extend
+	({
+		model: BuyerModel
+	});
+	
+	var result = buyerollection.query({firstName: 'John' });
