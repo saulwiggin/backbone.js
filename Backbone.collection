@@ -3,4 +3,11 @@ var BuyerCollection = Backbone.QueryCollection.extend
 		model: BuyerModel
 	});
 	
-	var result = buyerollection.query({firstName: 'John' });
+var result = buyerollection.query({firstName: 'John' });
+	
+buyerCollection.query({ firstName: {$equal: 'John'} });
+
+//* or  call to noSQL database *//
+
+buyerCollection.query
+({ $or: {firstName: 'John', city: 'Alexandria'}});
