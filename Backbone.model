@@ -1,0 +1,6 @@
+  var invoiceItemModel = new InvoiceItemModel({
+    date: '2013-04-24',
+    description: 'Wooden Toy House',
+    price: 22,
+    quantity: 3
+  });
