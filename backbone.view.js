@@ -29,3 +29,8 @@ var InvoiceItemView2 = Backbone.View.extend({
 		$(this.el).html(this.html);
 		}
 		});
+		
+		// initialise instanceofinvoiceItemView2.render();
+		
+		// insert newly created view into DOM
+		$('body').append(invoiceItemView2.el);
